@@ -1,0 +1,32 @@
+footer {
+    bottom: 0 auto;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.titulos-footer {
+    margin-top: $espacio-chico;
+}
+
+.icono-redes {
+    width: 30px;
+}
+
+.padre-redes {
+    @include flex-fila-centrado;
+    gap: 30px;
+}
+
+.whatsapp {
+    width: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}

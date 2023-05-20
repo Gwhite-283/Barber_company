@@ -1,0 +1,50 @@
+
+header {
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    padding: 20px;
+}
+
+
+.foto_intro {
+    width: 100%;
+    height: 400px;
+}
+.card {
+    background: rgba(149, 146, 146, 0.336);
+    padding: 6px 30px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.575);
+}
+nav.navbar .navbar-expand-lg {
+    width: 100%;
+}
+
+a.nav-link {
+    color: white;
+    
+}
+a.nav-link.active {
+    color: white;
+}
+
+div#navbarNavAltMarkup {
+    flex-direction: row;
+}
+
+nav.navbar.navbar-expand-lg.bg-dark{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
